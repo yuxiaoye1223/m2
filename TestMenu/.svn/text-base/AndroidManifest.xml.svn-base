@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="test.TestMenu"
+      android:versionCode="1"
+      android:versionName="1.0">
+      <uses-permission android:name="android.permission.INTERNET" />  
+       <supports-screens android:largeScreens="true" android:anyDensity="true" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+        <uses-library
+            android:name="com.skyworth">
+        </uses-library>
+        <activity android:name=".TestMenu"
+                  android:label="@string/app_name"
+                  android:configChanges="locale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+              <intent-filter>
+                <action android:name="android.intent.action.testMenu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mtwo.FactoryMenuMain"
+                  android:label="@string/app_name"                  android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.FactoryMenuMain" />
+                   <category android:name="android.intent.category.DEFAULT" />   
+            </intent-filter>
+        </activity>
+	<!--receiver android:name=".BootBroadcastReceiver">
+    		<intent-filter>
+        		<action android:name="android.intent.action.BOOT_COMPLETED"></action>
+    		</intent-filter>
+	</receiver-->
+    </application>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-sdk android:minSdkVersion="8" />
+
+<uses-permission android:name="android.permission.CHANGE_CONFIGURATION"></uses-permission>
+</manifest>

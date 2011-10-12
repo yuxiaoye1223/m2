@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/skyworth/!svn/ver/6469/Skyworth_M2/Packages/tvservice/src/com/amlogic/android/serialport
+END
+SerialPort.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/skyworth/!svn/ver/6238/Skyworth_M2/Packages/tvservice/src/com/amlogic/android/serialport/SerialPort.java
+END
+ParamTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/skyworth/!svn/ver/6238/Skyworth_M2/Packages/tvservice/src/com/amlogic/android/serialport/ParamTable.java
+END
+EnumTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/skyworth/!svn/ver/6469/Skyworth_M2/Packages/tvservice/src/com/amlogic/android/serialport/EnumTable.java
+END
+SettingParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/skyworth/!svn/ver/6238/Skyworth_M2/Packages/tvservice/src/com/amlogic/android/serialport/SettingParam.java
+END

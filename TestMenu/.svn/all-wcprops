@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/skyworth/!svn/ver/6839/Skyworth_M2/2D_OSD/Apps/TestMenu
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/skyworth/!svn/ver/4267/Skyworth_M2/2D_OSD/Apps/TestMenu/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/skyworth/!svn/ver/4441/Skyworth_M2/2D_OSD/Apps/TestMenu/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/skyworth/!svn/ver/4267/Skyworth_M2/2D_OSD/Apps/TestMenu/.project
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/skyworth/!svn/ver/4442/Skyworth_M2/2D_OSD/Apps/TestMenu/Android.mk
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/skyworth/!svn/ver/5452/Skyworth_M2/2D_OSD/Apps/TestMenu/AndroidManifest.xml
+END

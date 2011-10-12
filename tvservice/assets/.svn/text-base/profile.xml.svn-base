@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Setting>
+
+<Data ID="CHANNEL" Value="TV" Comment="TV|AV|YUV|HDMI1|HDMI2|HDMI3|VGA|COOCAA"/>
+<!--通道相关-->
+<Data ID="TV_Hue" Value="50" Comment="0~100"/>
+<Data ID="TV_Sharpness" Value="50" Comment="0~100"/>
+<Data ID="TV_NR" Value="OFF" Comment="OFF|LOW|MID|HIGH|AUTO"/>
+<Data ID="TV_DisplayMode" Value="169" Comment="169|PERSON|THEATER|SUBTITLE|4:3|PANORA"/>
+<Data ID="TV_USER_Brightness" Value="50" Comment="0~100"/>
+<Data ID="TV_USER_Contrast" Value="50" Comment="0~100"/>
+<Data ID="TV_USER_Color" Value="50" Comment="0~100"/>
+<Data ID="TV_STD_Brightness" Value="50" Comment="0~100"/>
+<Data ID="TV_STD_Contrast" Value="50" Comment="0~100"/>
+<Data ID="TV_STD_Color" Value="50" Comment="0~100"/>
+<Data ID="TV_VIVID_Brightness" Value="50" Comment="0~100"/>
+<Data ID="TV_VIVID_Contrast" Value="50" Comment="0~100"/>
+<Data ID="TV_VIVID_Color" Value="50" Comment="0~100"/>
+<Data ID="TV_SOFT_Brightness" Value="50" Comment="0~100"/>
+<Data ID="TV_SOFT_Contrast" Value="50" Comment="0~100"/>
+<Data ID="TV_SOFT_Color" Value="50" Comment="0~100"/>
+
+<Data ID="AV_Hue" Value="50" Comment="0~100"/>
+<Data ID="AV_Sharpness" Value="50" Comment="0~100"/>
+<Data ID="AV_NR" Value="OFF" Comment="OFF|LOW|MID|HIGH|AUTO"/>
+<Data ID="AV_DisplayMode" Value="169" Comment="169|PERSON|THEATER|SUBTITLE|4:3|PANORA"/>
+<Data ID="AV_USER_Brightness" Value="50" Comment="0~100"/>
+<Data ID="AV_USER_Contrast" Value="50" Comment="0~100"/>
+<Data ID="AV_USER_Color" Value="50" Comment="0~100"/>
+<Data ID="AV_STD_Brightness" Value="50" Comment="0~100"/>
+<Data ID="AV_STD_Contrast" Value="50" Comment="0~100"/>
+<Data ID="AV_STD_Color" Value="50" Comment="0~100"/>
+<Data ID="AV_VIVID_Brightness" Value="50" Comment="0~100"/>
+<Data ID="AV_VIVID_Contrast" Value="50" Comment="0~100"/>
+<Data ID="AV_VIVID_Color" Value="50" Comment="0~100"/>
+<Data ID="AV_SOFT_Brightness" Value="50" Comment="0~100"/>
+<Data ID="AV_SOFT_Contrast" Value="50" Comment="0~100"/>
+<Data ID="AV_SOFT_Color" Value="50" Comment="0~100"/>
+
+<Data ID="YUV_Hue" Value="50" Comment="0~100"/>
+<Data ID="YUV_Sharpness" Value="50" Comment="0~100"/>
+<Data ID="YUV_NR" Value="OFF" Comment="OFF|LOW|MID|HIGH|AUTO"/>
+<Data ID="YUV_DisplayMode" Value="169" Comment="169|PERSON|THEATER|SUBTITLE|4:3|PANORA"/>
+<Data ID="YUV_USER_Brightness" Value="50" Comment="0~100"/>
+<Data ID="YUV_USER_Contrast" Value="50" Comment="0~100"/>
+<Data ID="YUV_USER_Color" Value="50" Comment="0~100"/>
+<Data ID="YUV_STD_Brightness" Value="50" Comment="0~100"/>
+<Data ID="YUV_STD_Contrast" Value="50" Comment="0~100"/>
+<Data ID="YUV_STD_Color" Value="50" Comment="0~100"/>
+<Data ID="YUV_VIVID_Brightness" Value="50" Comment="0~100"/>
+<Data ID="YUV_VIVID_Contrast" Value="50" Comment="0~100"/>
+<Data ID="YUV_VIVID_Color" Value="50" Comment="0~100"/>
+<Data ID="YUV_SOFT_Brightness" Value="50" Comment="0~100"/>
+<Data ID="YUV_SOFT_Contrast" Value="50" Comment="0~100"/>
+<Data ID="YUV_SOFT_Color" Value="50" Comment="0~100"/>
+
+<Data ID="HDMI1_Hue" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_Sharpness" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_NR" Value="OFF" Comment="OFF|LOW|MID|HIGH|AUTO"/>
+<Data ID="HDMI1_DisplayMode" Value="169" Comment="169|PERSON|THEATER|SUBTITLE|4:3|PANORA"/>
+<Data ID="HDMI1_USER_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_USER_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_USER_Color" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_STD_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_STD_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_STD_Color" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_VIVID_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_VIVID_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_VIVID_Color" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_SOFT_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_SOFT_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI1_SOFT_Color" Value="50" Comment="0~100"/>
+
+<Data ID="HDMI2_Hue" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_Sharpness" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_NR" Value="OFF" Comment="OFF|LOW|MID|HIGH|AUTO"/>
+<Data ID="HDMI2_DisplayMode" Value="169" Comment="169|PERSON|THEATER|SUBTITLE|4:3|PANORA"/>
+<Data ID="HDMI2_USER_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_USER_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_USER_Color" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_STD_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_STD_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_STD_Color" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_VIVID_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_VIVID_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_VIVID_Color" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_SOFT_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_SOFT_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI2_SOFT_Color" Value="50" Comment="0~100"/>
+
+<Data ID="HDMI3_Hue" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_Sharpness" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_NR" Value="OFF" Comment="OFF|LOW|MID|HIGH|AUTO"/>
+<Data ID="HDMI3_DisplayMode" Value="169" Comment="169|PERSON|THEATER|SUBTITLE|4:3|PANORA"/>
+<Data ID="HDMI3_USER_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_USER_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_USER_Color" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_STD_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_STD_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_STD_Color" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_VIVID_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_VIVID_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_VIVID_Color" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_SOFT_Brightness" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_SOFT_Contrast" Value="50" Comment="0~100"/>
+<Data ID="HDMI3_SOFT_Color" Value="50" Comment="0~100"/>
+
+<Data ID="COOCAA_Hue" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_Sharpness" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_NR" Value="OFF" Comment="OFF|LOW|MID|HIGH|AUTO"/>
+<Data ID="COOCAA_DisplayMode" Value="169" Comment="169|PERSON|THEATER|SUBTITLE|4:3|PANORA"/>
+<Data ID="COOCAA_USER_Brightness" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_USER_Contrast" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_USER_Color" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_STD_Brightness" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_STD_Contrast" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_STD_Color" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_VIVID_Brightness" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_VIVID_Contrast" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_VIVID_Color" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_SOFT_Brightness" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_SOFT_Contrast" Value="50" Comment="0~100"/>
+<Data ID="COOCAA_SOFT_Color" Value="50" Comment="0~100"/>
+
+<Data ID="VGA_Hue" Value="50" Comment="0~100"/>
+<Data ID="VGA_Sharpness" Value="50" Comment="0~100"/>
+<Data ID="VGA_NR" Value="OFF" Comment="OFF|LOW|MID|HIGH|AUTO"/>
+<Data ID="VGA_DisplayMode" Value="169" Comment="169|PERSON|THEATER|SUBTITLE|4:3|PANORA"/>
+<Data ID="VGA_USER_Brightness" Value="50" Comment="0~100"/>
+<Data ID="VGA_USER_Contrast" Value="50" Comment="0~100"/>
+<Data ID="VGA_USER_Color" Value="50" Comment="0~100"/>
+<Data ID="VGA_STD_Brightness" Value="50" Comment="0~100"/>
+<Data ID="VGA_STD_Contrast" Value="50" Comment="0~100"/>
+<Data ID="VGA_STD_Color" Value="50" Comment="0~100"/>
+<Data ID="VGA_VIVID_Brightness" Value="50" Comment="0~100"/>
+<Data ID="VGA_VIVID_Contrast" Value="50" Comment="0~100"/>
+<Data ID="VGA_VIVID_Color" Value="50" Comment="0~100"/>
+<Data ID="VGA_SOFT_Brightness" Value="50" Comment="0~100"/>
+<Data ID="VGA_SOFT_Contrast" Value="50" Comment="0~100"/>
+<Data ID="VGA_SOFT_Color" Value="50" Comment="0~100"/>
+
+<!--系统设置-->
+<Data ID="Brightness_STD" Value="55" Comment="0~100"/> 
+<Data ID="Contrast_STD" Value="75" Comment="0~100"/> 
+<Data ID="Color_STD" Value="50" Comment="0~100"/> 
+<Data ID="Sharpness_STD" Value="50" Comment="0~100"/> 
+
+<Data ID="Brightness_VIVID" Value="65" Comment="0~100"/> 
+<Data ID="Contrast_VIVID" Value="80" Comment="0~100"/> 
+<Data ID="Color_VIVID" Value="55" Comment="0~100"/> 
+<Data ID="Sharpness_VIVID" Value="50" Comment="0~100"/> 
+
+<Data ID="Brightness_SOFT" Value="52" Comment="0~100"/> 
+<Data ID="Contrast_SOFT" Value="70" Comment="0~100"/> 
+<Data ID="Color_SOFT" Value="45" Comment="0~100"/> 
+<Data ID="Sharpness_SOFT" Value="50" Comment="0~100"/>
+
+<Data ID="Brightness_USER" Value="50" Comment="0~100"/> 
+<Data ID="Contrast_USER" Value="50" Comment="0~100"/> 
+<Data ID="Color_USER" Value="50" Comment="0~100"/> 
+<Data ID="Sharpness_USER" Value="50" Comment="0~100"/>
+
+<Data ID="PictureMode" Value="STD" Comment="STD|VIVID|SOFT|USER"/>
+<Data ID="SoundMode" Value="STD" Comment="STD|MUSIC|NEWS|THEATER|USER"/>
+<Data ID="ColorTemp" Value="STD" Comment="COLD|STD|WARM"/><!--色温-->
+<Data ID="BackLight" Value="100" Comment="0~100"/><!--背光调节-->
+<Data ID="Language" Value="CHN" Comment="CHN|ENG"/><!--语言-->
+<Data ID="SleepTime" Value="0" Comment="0|5|15|30|60|90|120"/><!--睡眠时间-->
+<Data ID="PowerOnSource" Value="TV" Comment="MEMORY|COOCAA|TV|AV|YUV|HDMI1|HDMI2|HDMI3|VGA"/><!--开机通道-->
+<Data ID="PowerOnMusic" Value="ON" Comment="ON|OFF"/><!--开机音乐-->
+<Data ID="KeyTone" Value="ON" Comment="ON|OFF"/><!--按键音-->
+<Data ID="DreamPanel" Value="OFF" Comment="OFF|SENSOR|SCENE|ALL|DEMO"/><!--屏变-->
+<Data ID="MEMC" Value="MID" Comment="OFF|WEAK|MID|STRONG"/><!--屏稳-->
+<Data ID="SixColor" Value="OPTI" Comment="OFF|OPTI|ENHANCE|DEMO"/><!--六基色-->
+<Data ID="LocalDimming" Value="ON" Comment="OFF|ON|DEMO"/><!--矩阵背光-->
+<Data ID="PanelInfor" Value="0" Comment="0|1|2|3|4|5|6|7"/><!--主机配屏信息-->
+
+<!--声音设置-->
+<Data ID="SoundMode_USER_Trebble" Value="50" Comment="0~100"/>
+<Data ID="SoundMode_USER_Bass" Value="50" Comment="0~100"/>
+<Data ID="SoundMode_USER_EQ_100" Value="20" Comment="0~40"/>
+<Data ID="SoundMode_USER_EQ_300" Value="20" Comment="0~40"/>
+<Data ID="SoundMode_USER_EQ_1K" Value="20" Comment="0~40"/>
+<Data ID="SoundMode_USER_EQ_3K" Value="20" Comment="0~40"/>
+<Data ID="SoundMode_USER_EQ_10K" Value="20" Comment="0~40"/>
+<Data ID="SoundMode_STD_Trebble" Value="50" Comment="0~100"/>
+<Data ID="SoundMode_STD_Bass" Value="50" Comment="0~100"/>
+<Data ID="SoundMode_STD_EQ_100" Value="20" Comment="0~40"/>
+<Data ID="SoundMode_STD_EQ_300" Value="20" Comment="0~40"/>
+<Data ID="SoundMode_STD_EQ_1K" Value="20" Comment="0~40"/>
+<Data ID="SoundMode_STD_EQ_3K" Value="20" Comment="0~40"/>
+<Data ID="SoundMode_STD_EQ_10K" Value="20" Comment="0~40"/>
+<Data ID="SoundMode_NEWS_Trebble" Value="50" Comment="0~100"/>
+<Data ID="SoundMode_NEWS_Bass" Value="50" Comment="0~100"/>
+<Data ID="SoundMode_NEWS_EQ_100" Value="16" Comment="0~40"/>
+<Data ID="SoundMode_NEWS_EQ_300" Value="16" Comment="0~40"/>
+<Data ID="SoundMode_NEWS_EQ_1K" Value="21" Comment="0~40"/>
+<Data ID="SoundMode_NEWS_EQ_3K" Value="24" Comment="0~40"/>
+<Data ID="SoundMode_NEWS_EQ_10K" Value="23" Comment="0~40"/>
+<Data ID="SoundMode_THEATER_Trebble" Value="50" Comment="0~100"/>
+<Data ID="SoundMode_THEATER_Bass" Value="50" Comment="0~100"/>
+<Data ID="SoundMode_THEATER_EQ_100" Value="24" Comment="0~40"/>
+<Data ID="SoundMode_THEATER_EQ_300" Value="25" Comment="0~40"/>
+<Data ID="SoundMode_THEATER_EQ_1K" Value="22" Comment="0~40"/>
+<Data ID="SoundMode_THEATER_EQ_3K" Value="25" Comment="0~40"/>
+<Data ID="SoundMode_THEATER_EQ_10K" Value="25" Comment="0~40"/>
+<Data ID="SoundMode_MUSIC_Trebble" Value="50" Comment="0~100"/>
+<Data ID="SoundMode_MUSIC_Bass" Value="50" Comment="0~100"/>
+<Data ID="SoundMode_MUSIC_EQ_100" Value="23" Comment="0~40"/>
+<Data ID="SoundMode_MUSIC_EQ_300" Value="24" Comment="0~40"/>
+<Data ID="SoundMode_MUSIC_EQ_1K" Value="21" Comment="0~40"/>
+<Data ID="SoundMode_MUSIC_EQ_3K" Value="24" Comment="0~40"/>
+<Data ID="SoundMode_MUSIC_EQ_10K" Value="24" Comment="0~40"/>
+<Data ID="SRS" Value="OFF" Comment="ON|OFF"/><!--SRS环绕声开关-->
+<Data ID="VOICE" Value="OFF" Comment="ON|OFF"/><!--清脆人声-->
+<Data ID="INCREASE_BASS" Value="OFF" Comment="ON|OFF"/><!--低音提升-->
+<Data ID="SubwooferVol" Value="80" Comment="0~100"/><!--重低音音量-->
+<Data ID="SubwooferSwitch" Value="OFF" Comment="ON|OFF"/><!--重低音开关-->
+<Data ID="WallEffects" Value="OFF" Comment="ON|OFF"/><!--壁挂音效-->
+<Data ID="Volumn" Value="20" Comment="0~100"/>
+<Data ID="Balance" Value="50" Comment="0~100(-50~50)"/>
+<Data ID="Mute" Value="0" Comment="0~1"/>
+
+
+<!--网络设置-->
+<Data ID="W_DHCP" Value="ON" Comment="ON|OFF"/>
+<Data ID="W_IP" Value="192.168.1.2" Comment=""/>
+<Data ID="W_DNS" Value="192.168.1.1" Comment=""/>
+<Data ID="W_GATEWAY" Value="192.168.1.1" Comment=""/>
+<Data ID="W_NETMASK" Value="255.255.255.0" Comment=""/>
+<Data ID="W_MAC" Value="001A9AE2FF88" Comment=""/><!--默认MAC地址-->
+<Data ID="WL_DHCP" Value="ON" Comment="ON|OFF"/>
+<Data ID="WL_IP" Value="192.168.1.2" Comment=""/>
+<Data ID="WL_DNS" Value="192.168.1.1" Comment=""/>
+<Data ID="WL_GATEWAY" Value="192.168.1.1" Comment=""/>
+<Data ID="WL_NETMASK" Value="255.255.255.0" Comment=""/>
+<Data ID="WL_SSID" Value="" Comment=""/>
+<Data ID="WL_PASSWORD" Value="" Comment=""/>
+
+<!--文本播放设置-->
+<Data ID="TxtPage" Value="1" Comment=""/><!--未保存-->
+<Data ID="TxtBreakPoint" Value="OFF" Comment="ON|OFF"/><!--未保存-->
+<Data ID="TxtTurnNum" Value="10" Comment="10|20|50|-10|-20|-50"/><!--快速翻页页数-->
+
+<!--音乐播放设置-->
+<Data ID="MusRepeatMode" Value="FOLDER" Comment="SINGLE|FOLDER|RANDOM"/>
+
+<!--图片播放设置-->
+<Data ID="PicRepeatMode" Value="FOLDER" Comment="ORDER|FOLDER|RANDOM"/>
+<Data ID="PicPlayMode" Value="3S" Comment="3S|5S|10S|HAND"/>
+<Data ID="PicSwitchMode" Value="Random" Comment="Normal|Random"/><!--图片切换模式-->
+
+<!--视频播放设置-->
+<Data ID="VidRepeatMode" Value="FOLDER" Comment="SINGLE|FOLDER|RANDOM"/>
+
+<!--3D设置-->
+<Data ID="3D_MODE" Value="0" Comment="0|1|2|3|4"/>
+<Data ID="3D_LF" Value="0" Comment="0|1"/> 
+<Data ID="3D_JINGSHEN" Value="0" Comment="0~15"/> 
+<Data ID="3D_To2D" Value="0" Comment="0|1|2"/>
+
+<!--酷K设置-->
+
+
+<!--高级设置-->
+<Data ID="ListMode" Value="FOLDER" Comment="FILE|FOLDER"/>
+<Data ID="MainBoardType" Value="0" Comment="0~20"/>
+<Data ID="MAC" Value="" Comment=""/>
+
+<!--工厂设置-->
+<Data ID="FuncEnable" Value="4" Comment=""/>
+<Data ID="AdbdEnable" Value="0" Comment=""/>
+<Data ID="DeleteA3D" Value="0" Comment=""/>
+<Data ID="FacData04" Value="0" Comment=""/>
+<Data ID="FacData05" Value="0" Comment=""/>
+<Data ID="FacData06" Value="0" Comment=""/>
+<Data ID="FacData07" Value="0" Comment=""/>
+<Data ID="FacData08" Value="0" Comment=""/>
+<Data ID="FacData09" Value="0" Comment=""/>
+<Data ID="FacData10" Value="0" Comment=""/>
+<Data ID="FacData11" Value="0" Comment=""/>
+<Data ID="FacData12" Value="0" Comment=""/>
+<Data ID="FacData13" Value="0" Comment=""/>
+<Data ID="FacData14" Value="0" Comment=""/>
+<Data ID="FacData15" Value="0" Comment=""/>
+<Data ID="FacData16" Value="0" Comment=""/>
+<Data ID="FacData17" Value="0" Comment=""/>
+<Data ID="FacData18" Value="0" Comment=""/>
+<Data ID="FacData19" Value="0" Comment=""/>
+<Data ID="FacData20" Value="0" Comment=""/>
+
+<!--视频聊天-->
+<Data ID="LocalVideoOn" Value="on" Comment="on/off"/>
+<Data ID="RemoteVideoOn" Value="on" Comment="on/off"/>
+<Data ID="FullScreenOn" Value="on" Comment="on/off"/>
+
+</Setting>

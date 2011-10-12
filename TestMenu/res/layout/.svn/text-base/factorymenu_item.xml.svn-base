@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Don't use wrapcontent. Fixed width and height will improve listview refresh speed-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000px"
+    android:layout_height="55px"
+    >
+   <TextView  
+		android:id="@+id/ListText"
+	    android:textSize="32px"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+
+		android:layout_width="600px"
+   		android:layout_height="55px"
+   		android:textColor = "@drawable/listtxt_color"
+	    
+	/>
+	<TextView 
+	    android:id="@+id/ListButton"
+	    android:textSize="32px"
+	    android:layout_alignTop="@id/ListText"
+	    android:layout_alignParentRight="true"
+	    android:layout_width="300px"
+   		android:layout_height="55px"
+   		android:textColor = "@drawable/listtxt_color"
+		android:gravity="center_horizontal"
+	/>
+</RelativeLayout>

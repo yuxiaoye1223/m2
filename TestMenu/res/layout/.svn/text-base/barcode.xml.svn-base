@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/barcodeTable"
+        android:layout_width="900px"
+   		android:layout_height="400px"
+		android:padding="40px"
+		android:background="#aabbbbbb"
+   		android:stretchColumns="1"
+   		android:shrinkColumns="*"
+   		android:focusable="true"
+    >
+    <TableRow>
+	    <TextView  
+	    android:text="@string/BAR_CODE"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+	   	<TextView  
+	    android:id="@+id/barcodeContent"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+    </TableRow>
+    <TableRow>
+	    <TextView  
+	    android:text="@string/MAC"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+	   	<TextView  
+	    android:id="@+id/macContent"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+
+    </TableRow>    
+    <TableRow>
+	    <TextView  
+	    android:text="@string/paneltext"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+	   	<TextView  
+	    android:id="@+id/panelContent"
+	    android:text="@string/panel"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+    </TableRow>
+    <TableRow>
+	    <TextView  
+	    android:text="@string/Resolutiontext"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+	   	<TextView  
+	    android:id="@+id/ResolutionContent"
+	    android:text="@string/Resolution"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+    </TableRow>   
+    <TableRow>
+	    <TextView  
+	    android:text="@string/Refreshtext"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+	   	<TextView  
+	    android:id="@+id/RefreshrateContent"
+	    android:text="@string/Refreshrate"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+    </TableRow> 
+    <TableRow>
+	    <TextView  
+	    android:text="@string/ColorDepthText"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+	   	<TextView  
+	    android:id="@+id/ColorDepthContent"
+	    android:text="@string/ColorDepth"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+    </TableRow>   
+    <TableRow>
+	    <TextView  
+	    android:text="@string/ProcessorText"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+	   	<TextView  
+	    android:id="@+id/ProcessorContent"
+	    android:text="@string/Processor"
+	    android:textSize="32px"
+	    android:gravity="left"
+	    android:textColor="#000000"
+	    
+	    />
+    </TableRow>            
+
+    </TableLayout>
+
+

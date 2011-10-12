@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TvService</string>
+    <string name="sleeptimer_en">Sleep timer is counting down:</string>
+ 	<string name="sleeptimer_ch">睡眠时间倒计时：</string>
+<!-- 	<string name="sleeptimerexit_en">press any key to cancel auto power off!</string>
+ 	<string name="sleeptimerexit_ch">按任意键取消自动关机！</string>-->
+</resources>

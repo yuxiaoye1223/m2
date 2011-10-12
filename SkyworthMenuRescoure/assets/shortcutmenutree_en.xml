@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SCMenuTree version="1.0.0">
+<!--SCENES:Music|Picture|Txt|MusPic|MusT|PicT|MusPT-->
+	<SCMenu ID="MusicPlayControl" Scenes="Music|MusPic|MusT|MusPT">
+		<SCMenu ID="shortcut_common_mute_" Value="Mute" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		<SCMenu ID="status" UIType="StatusCommand" Value="Play\Pause" Scenes="Music|MusPic|MusT|MusPT">
+			<SCMenu ID="shortcut_common_play_" Value="Play" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_pause_" Value="Pause" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_stop_" Value="Stop" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		<SCMenu ID="status" Value="Fast Backward" UIType="StatusCommand" Scenes="Music|MusPic|MusT|MusPT">
+			<SCMenu ID="shortcut_common_fb_" Value="Fast Backward" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_fb1_" Value="Fast Backward" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="status" Value="Fast Forward" UIType="StatusCommand" Scenes="Music|MusPic|MusT|MusPT">
+			<SCMenu ID="shortcut_common_ff_" Value="Fast Forward" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_ff1_" Value="Fast Forward" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_prev_" Value="PREV" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		<SCMenu ID="shortcut_common_next_" Value="NEXT" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		<SCMenu ID="shortcut_common_vol_" Value="Volume" UIType="SliderBar" Scenes="Music|MusPic|MusT|MusPT"/>
+		<SCMenu ID="shortcut_common_playmode_" Value="Repeat Mode" UIType="SelectBox" Scenes="Music|MusPic|MusT|MusPT">
+			<SCMenu ID="shortcut_common_playmode_single" Value="Single" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_playmode_folder" Value="Folder" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_playmode_rand" Value="Random" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_sync_control_" Value="Menu Handle" UIType="SelectBoxCommand" Scenes="MusPic|MusT|MusPT">
+			<SCMenu ID="shortcut_common_sync_control_music" Value="Music" UIType="Command" Scenes="MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_control_picture" Value="Picture" UIType="Command" Scenes="MusPic|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_control_txt" Value="TXT" UIType="Command" Scenes="MusT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_sync_play_" Value="Multi Play" UIType="SelectBoxCommand" Scenes="Music|MusPic|MusT|MusPT">
+			<SCMenu ID="shortcut_common_sync_play_music" Value="Music" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_play_picture" Value="Picture" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_play_txt" Value="TXT" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_audio_sound_mode_" Value="Sound Mode" UIType="SelectBox" Scenes="Music|MusPic|MusT|MusPT">
+			<SCMenu ID="shortcut_setup_audio_sound_mode_std" Value="Standard" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+      		<SCMenu ID="shortcut_setup_audio_sound_mode_music" Value="Music" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_setup_audio_sound_mode_news" Value="News" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_setup_audio_sound_mode_theater" Value="Movie" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>	
+			<SCMenu ID="shortcut_setup_audio_sound_mode_user" Value="User" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_source_" Value="Source" UIType="SelectBox" Scenes="Music|MusPic|MusT|MusPT">
+			<SCMenu ID="shortcut_common_source_tv" Value="TV" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_av1" Value="AV" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_yuv1" Value="YUV" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_hdmi1" Value="HDMI1" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_hdmi2" Value="HDMI2" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_hdmi3" Value="HDMI3" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_vga" Value="PC" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+		</SCMenu>
+		
+		<SCMenu ID="shortcut_cloud_share_" Value="Cloud Share" UIType="Command" Scenes="Music|MusPic|MusT|MusPT"/>
+    </SCMenu>
+	<SCMenu ID="PicturePlayControl" Scenes="Picture|MusPic|PicT|MusPT">
+		<SCMenu ID="shortcut_common_mute_" Value="Mute" UIType="Command" Scenes="MusPic|MusPT"/>
+		<SCMenu ID="status" UIType="StatusCommand" Value="Play\Pause" Scenes="Picture|MusPic|PicT|MusPT">
+			<SCMenu ID="shortcut_common_play_" Value="Play" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_pause_" Value="Pause" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_stop_" Value="Stop" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		<SCMenu ID="shortcut_common_prev_" Value="PREV" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		<SCMenu ID="shortcut_common_next_" Value="NEXT" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		<SCMenu ID="shortcut_common_vol_" Value="Volume" UIType="SliderBar" Scenes="MusPic|MusPT"/>
+		<SCMenu ID="shortcut_common_playmode_" Value="Repeat Mode" UIType="SelectBox" Scenes="Picture|MusPic|PicT|MusPT">
+			<SCMenu ID="shortcut_common_playmode_normal" Value="Sequence" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_playmode_folder" Value="Folder" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_playmode_rand" Value="Random" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_picture_switch_time_" Value="Switch Mode" UIType="SelectBox" Scenes="Picture|MusPic|PicT|MusPT">
+			<SCMenu ID="shortcut_picture_switch_time_3s" Value="3S" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_picture_switch_time_5s" Value="5S" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_picture_switch_time_10s" Value="10S" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_picture_switch_time_hand" Value="Manual" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_picture_switch_mode_" Value="Slide Mode" UIType="SelectBox" Scenes="Picture|MusPic|PicT|MusPT">
+			<SCMenu ID="shortcut_picture_switch_mode_1" Value="Normal" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_picture_switch_mode_2" Value="Random" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_picture_rotate_" Value="Rotation" UIType="SelectBox" Scenes="Picture|MusPic|PicT|MusPT">
+			<SCMenu ID="shortcut_picture_rotate_normal" Value="Normal" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+            <SCMenu ID="shortcut_picture_rotate_90" Value="90DEG" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_picture_rotate_180" Value="180DEG" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_picture_rotate_270" Value="270DEG" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_zoom_" Value="Zoom" UIType="SelectBox" Scenes="Picture|MusPic|PicT|MusPT">
+		<SCMenu ID="shortcut_common_zoom_big" Value="Zoom In" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+        <SCMenu ID="shortcut_common_zoom_small" Value="Zoom Out" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_sync_control_" Value="Menu Handle" UIType="SelectBoxCommand" Scenes="MusPic|PicT|MusPT">
+			<SCMenu ID="shortcut_common_sync_control_music" Value="Music" UIType="Command" Scenes="MusPic|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_control_picture" Value="Picture" UIType="Command" Scenes="MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_control_txt" Value="TXT" UIType="Command" Scenes="PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_sync_play_" Value="Multi Play" UIType="SelectBoxCommand" Scenes="Picture|MusPic|PicT|MusPT">
+			<SCMenu ID="shortcut_common_sync_play_music" Value="Music" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_play_picture" Value="Picture" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_play_txt" Value="TXT" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_source_" Value="Source" UIType="SelectBox" Scenes="Picture|MusPic|PicT|MusPT">
+			<SCMenu ID="shortcut_common_source_tv" Value="TV" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_av1" Value="AV" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_yuv1" Value="YUV" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_hdmi1" Value="HDMI1" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_hdmi2" Value="HDMI2" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_hdmi3" Value="HDMI3" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_vga" Value="PC" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_cloud_share_" Value="Cloud Share" UIType="Command" Scenes="Picture|MusPic|PicT|MusPT"/>
+    </SCMenu>
+	<SCMenu ID="TxtPlayControl" Scenes="Txt|MusT|PicT|MusPT">
+		<SCMenu ID="shortcut_common_mute_" Value="Mute" UIType="Command" Scenes="MusT|MusPT"/>
+		<SCMenu ID="shortcut_common_stop_" Value="Stop" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+		<SCMenu ID="shortcut_common_prev_" Value="PREV" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+		<SCMenu ID="shortcut_common_next_" Value="NEXT" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+		<SCMenu ID="shortcut_common_vol_" Value="Volume" UIType="SliderBar" Scenes="MusT|MusPT"/>
+		<SCMenu ID="shortcut_txt_turn_page_" Value="Page Turn" UIType="SelectBox" Scenes="Txt|MusT|PicT|MusPT">
+			<SCMenu ID="shortcut_txt_turn_page_next_10p" Value="Forward 10P" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_txt_turn_page_next_20p" Value="Forward 20P" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_txt_turn_page_next_50p" Value="Forward 50P" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_txt_turn_page_prve_10p" Value="Backward 10P" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_txt_turn_page_prve_20p" Value="Backward 20P" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_txt_turn_page_prve_50p" Value="Backward 50P" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_txt_breakpoint_" Value="Resume Reading" UIType="SelectBox" Scenes="Txt|MusT|PicT|MusPT">
+			<SCMenu ID="shortcut_txt_breakpoint_first" Value="Home Page" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_txt_breakpoint_breakpoint" Value="Break Point" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_txt_fontsize_" Value="Font Size" UIType="SelectBox" Scenes="Txt|MusT|PicT|MusPT">
+			<SCMenu ID="shortcut_txt_fontsize_big" Value="Large" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_txt_fontsize_mid" Value="Middle" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_txt_fontsize_small" Value="Small" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_sync_control_" Value="Menu Handle" UIType="SelectBoxCommand" Scenes="MusT|PicT|MusPT">
+			<SCMenu ID="shortcut_common_sync_control_music" Value="Music" UIType="Command" Scenes="MusT|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_control_picture" Value="Picture" UIType="Command" Scenes="PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_control_txt" Value="TXT" UIType="Command" Scenes="MusT|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_sync_play_" Value="Multi Play" UIType="SelectBoxCommand" Scenes="Txt|MusT|PicT|MusPT">
+			<SCMenu ID="shortcut_common_sync_play_music" Value="Music" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_play_picture" Value="Picture" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_sync_play_txt" Value="TXT" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_source_" Value="Source" UIType="SelectBox" Scenes="Txt|MusT|PicT|MusPT">
+			<SCMenu ID="shortcut_common_source_tv" Value="TV" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_av1" Value="AV" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_yuv1" Value="YUV" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_hdmi1" Value="HDMI1" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_hdmi2" Value="HDMI2" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_hdmi3" Value="HDMI3" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+			<SCMenu ID="shortcut_common_source_vga" Value="PC" UIType="Command" Scenes="Txt|MusT|PicT|MusPT"/>
+		</SCMenu>
+    </SCMenu>
+<!--SCENES:Local|Xunlei|Voole-->
+	<SCMenu ID="VideoPlayControl" Scenes="Local|Xunlei|Voole">
+		<SCMenu ID="shortcut_video_3d_setup_" Value="3D Settings" UIType="Setup3D" Scenes="Local|Xunlei|Voole"/>
+		<SCMenu ID="shortcut_common_mute_" Value="Mute" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+		<SCMenu ID="status" UIType="StatusCommand" Value="Play\Pause" Scenes="Local|Xunlei|Voole">
+			<SCMenu ID="shortcut_common_play_" Value="Play" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_pause_" Value="Pause" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_stop_" Value="Stop" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+		<SCMenu ID="status" Value="Fast Backward" UIType="StatusCommand" Scenes="Local|Xunlei|Voole">
+			<SCMenu ID="shortcut_common_fb_" Value="Fast Backward" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_fb1_" Value="Fast Backward" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_fb2_" Value="Fast Backward" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_fb4_" Value="Fast Backward" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_fb8_" Value="Fast Backward" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+		</SCMenu>
+		<SCMenu ID="status" Value="Fast Forward" UIType="StatusCommand" Scenes="Local|Xunlei|Voole">
+			<SCMenu ID="shortcut_common_ff_" Value="Fast Forward" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_ff1_" Value="Fast Forward" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_ff2_" Value="Fast Forward" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_ff4_" Value="Fast Forward" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_ff8_" Value="Fast Forward" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_prev_" Value="PREV" UIType="Command" Scenes="Local|Xunlei"/>
+		<SCMenu ID="shortcut_common_next_" Value="NEXT" UIType="Command" Scenes="Local|Xunlei"/>
+		<SCMenu ID="shortcut_common_vol_" Value="Volume" UIType="SliderBar" Scenes="Local|Xunlei|Voole"/>
+        <SCMenu ID="shortcut_setup_video_picture_mode_" Value="Picture Mode" UIType="SelectBox" Scenes="Local|Xunlei|Voole">
+			<SCMenu ID="shortcut_setup_video_picture_mode_std" Value="Standard" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_setup_video_picture_mode_vivid" Value="Vivid" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_setup_video_picture_mode_soft" Value="Gentle" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_setup_video_picture_mode_user" Value="User" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+		</SCMenu>
+        <SCMenu ID="shortcut_setup_video_display_mode_" Value="Display Mode" UIType="SelectBox" Scenes="Local|Xunlei|Voole">
+			<SCMenu ID="shortcut_setup_video_display_mode_169" Value="Full Screen" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_setup_video_display_mode_personal" Value="Person" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_setup_video_display_mode_theater" Value="Movie" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_setup_video_display_mode_subtitle" Value="Caption" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_setup_video_display_mode_43" Value="4:3" UIType="Command" Scenes="Local|Xunlei|Voole"/>		
+		</SCMenu>
+        <SCMenu ID="shortcut_setup_audio_sound_mode_" Value="Sound Mode" UIType="SelectBox" Scenes="Local|Xunlei|Voole">
+			<SCMenu ID="shortcut_setup_audio_sound_mode_std" Value="Standard" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+            <SCMenu ID="shortcut_setup_audio_sound_mode_music" Value="Music" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_setup_audio_sound_mode_news" Value="News" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_setup_audio_sound_mode_theater" Value="Movie" UIType="Command" Scenes="Local|Xunlei|Voole"/>	
+			<SCMenu ID="shortcut_setup_audio_sound_mode_user" Value="User" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+		</SCMenu>
+        <SCMenu ID="shortcut_video_subtitle_" Value="Subtitle" UIType="DynamicBox" Scenes="Local"/>
+		<SCMenu ID="shortcut_video_soundtrack_" Value="Audio" UIType="DynamicBox" Scenes="Local"/>
+		<SCMenu ID="shortcut_common_playmode_" Value="Repeat Mode" UIType="SelectBox" Scenes="Local">
+			<SCMenu ID="shortcut_common_playmode_single" Value="Single" UIType="Command" Scenes="Local"/>
+			<SCMenu ID="shortcut_common_playmode_folder" Value="Folder" UIType="Command" Scenes="Local"/>
+			<SCMenu ID="shortcut_common_playmode_rand" Value="Random" UIType="Command" Scenes="Local"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_common_source_" Value="Source" UIType="SelectBox" Scenes="Local|Xunlei|Voole">
+			<SCMenu ID="shortcut_common_source_tv" Value="TV" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_source_av1" Value="AV" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_source_yuv1" Value="YUV" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+            <SCMenu ID="shortcut_common_source_hdmi1" Value="HDMI1" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_source_hdmi2" Value="HDMI2" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_source_hdmi3" Value="HDMI3" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_common_source_vga" Value="PC" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_cloud_share_" Value="Cloud Share" UIType="Command" Scenes="Local|Xunlei|Voole"/>
+    </SCMenu>
+<!--SCENES:AnalogTV|AV|YUV|HDMI|VGA-->
+	<SCMenu ID="TVControl" Scenes="AnalogTV|AV|YUV|HDMI|VGA">
+        <SCMenu ID="shortcut_video_3d_setup_" Value="3D Settings" UIType="Setup3D" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+		<SCMenu ID="shortcut_common_mute_" Value="Mute" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+		<SCMenu ID="shortcut_common_source_" Value="Source" UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA">
+			<SCMenu ID="shortcut_common_source_tv" Value="TV" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_common_source_av1" Value="AV" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_common_source_yuv1" Value="YUV" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+            <SCMenu ID="shortcut_common_source_hdmi1" Value="HDMI1" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_common_source_hdmi2" Value="HDMI2" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_common_source_hdmi3" Value="HDMI3" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_common_source_vga" Value="PC" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+		</SCMenu>
+        <SCMenu ID="shortcut_setup_video_display_mode_" Value="Display Mode" UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA">
+			<SCMenu ID="shortcut_setup_video_display_mode_169" Value="Full Screen" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_video_display_mode_personal" Value="Person" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI"/>
+			<SCMenu ID="shortcut_setup_video_display_mode_theater" Value="Movie" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI"/>
+			<SCMenu ID="shortcut_setup_video_display_mode_subtitle" Value="Caption" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI"/>
+			<SCMenu ID="shortcut_setup_video_display_mode_43" Value="4:3" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_video_display_mode_panorama" Value="Panorama" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_video_picture_mode_" Value="Picture Mode" UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA">
+			<SCMenu ID="shortcut_setup_video_picture_mode_std" Value="Standard" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_video_picture_mode_vivid" Value="Vivid" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_video_picture_mode_soft" Value="Gentle" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_video_picture_mode_user" Value="User" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+		</SCMenu>
+        <SCMenu ID="shortcut_setup_audio_sound_mode_" Value="Sound Mode " UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA">
+			<SCMenu ID="shortcut_setup_audio_sound_mode_std" Value="Standard" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_audio_sound_mode_music" Value="Music" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_audio_sound_mode_news" Value="News" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_audio_sound_mode_theater" Value="Movie" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+            <SCMenu ID="shortcut_setup_audio_sound_mode_user" Value="User" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+		</SCMenu>
+        <SCMenu ID="shortcut_program_setup_" Value="Tune" UIType="ChannelSetupSwitch" Scenes="AnalogTV"/>
+        <SCMenu ID="shortcut_program_video_sys_" Value="Color System" UIType="SelectBox" Scenes="AV">
+			<SCMenu ID="shortcut_program_video_sys_auto" Value="Auto" UIType="Command" Scenes="AV"/>
+			<SCMenu ID="shortcut_program_video_sys_pal" Value="PAL" UIType="Command" Scenes="AV"/>
+			<SCMenu ID="shortcut_program_video_sys_ntsc" Value="NTSC" UIType="Command" Scenes="AV"/>
+        </SCMenu>
+    	<SCMenu ID="shortcut_setup_audio_srs_" Value="SRS Surround" UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA">
+			<SCMenu ID="shortcut_setup_audio_srs_off" Value="Off" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_audio_srs_on" Value="On" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+        </SCMenu>
+        <SCMenu ID="shortcut_setup_video_brightness_" Value="Brightness" UIType="SliderBar" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+        <SCMenu ID="shortcut_setup_video_contrast_" Value="Contrast" UIType="SliderBar" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+        <SCMenu ID="shortcut_setup_video_color_" Value="Color" UIType="SliderBar" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+        <SCMenu ID="shortcut_setup_video_sharpness_" Value="Sharpness" UIType="SliderBar" Scenes="AnalogTV|AV|YUV|HDMI"/>
+        <SCMenu ID="shortcut_setup_video_hue_" Value="Hue" UIType="SliderBar" Scenes="AnalogTV|AV"/>
+        <SCMenu ID="shortcut_setup_video_dnr_" Value="DNR" UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA">
+			<SCMenu ID="shortcut_setup_video_dnr_off" Value="Off" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_video_dnr_weak" Value="Low" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_video_dnr_mid" Value="Middle" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_video_dnr_strong" Value="High" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_video_dnr_auto" Value="Auto" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+		</SCMenu>
+        <SCMenu ID="shortcut_setup_audio_mute_panel_" Value="Audio Only" UIType="Dialog" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+		<SCMenu ID="shortcut_setup_sys_six_color_" Value="Magic Picture III" UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA">
+			<SCMenu ID="shortcut_setup_sys_six_color_off" Value="Off" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_sys_six_color_opti" Value="Optimize" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_sys_six_color_enhance" Value="Enhance" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+<!--			<SCMenu ID="shortcut_setup_sys_six_color_colordemo" Value="Color Demo" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>-->
+			<SCMenu ID="shortcut_setup_sys_six_color_splitdemo" Value="Split Demo" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+    	</SCMenu>
+    	<SCMenu ID="shortcut_setup_sys_dream_panel_" Value="Dream Panel" UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA">
+			<SCMenu ID="shortcut_setup_sys_dream_panel_off" Value="Off" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_sys_dream_panel_sensor" Value="Environment" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_sys_dream_panel_scene" Value="Image" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_sys_dream_panel_all" Value="Multiple" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+			<SCMenu ID="shortcut_setup_sys_dream_panel_demo" Value="Demo" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_memc_" Value="MEMC" UIType="SelectBox" Scenes="FUTURE">
+			<SCMenu ID="shortcut_setup_sys_memc_off" Value="Off" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_setup_sys_memc_weak" Value="Low" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_setup_sys_memc_mid" Value="Middle" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_setup_sys_memc_strong" Value="High" UIType="Command" Scenes="FUTURE"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_matrix_" Value="Matix B/L" UIType="SelectBox" Scenes="FUTURE">
+			<SCMenu ID="shortcut_setup_sys_matrix_off" Value="Off" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_setup_sys_matrix_on" Value="On" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_setup_sys_matrix_demo" Value="Demo" UIType="Command" Scenes="FUTURE"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_pc_set_" Value="PC" UIType="Command" Scenes="VGA"/>
+		<SCMenu ID="shortcut_shopping_demo_" Value="Market Demo" UIType="Command" Scenes="YUV|HDMI"/>
+<!--		<SCMenu ID="shortcut_setup_sys_pc_set_auto_" Value="Auto Adjust" UIType="Command" Scenes="VGA"/>
+		<SCMenu ID="shortcut_setup_sys_pc_set_hor_" Value="Hor. Pos." UIType="SliderBar" Scenes="VGA"/>
+		<SCMenu ID="shortcut_setup_sys_pc_set_ver_" Value="Vert. Pos." UIType="SliderBar" Scenes="VGA"/>
+		<SCMenu ID="shortcut_setup_sys_pc_set_pha_" Value="Phase" UIType="SliderBar" Scenes="VGA"/>
+			<SCMenu ID="shortcut_setup_sys_pc_set_freq_" Value="Frequency" UIType="SliderBar" Scenes="VGA"/>-->
+	</SCMenu>
+<!--SCENES:AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole-->
+	<SCMenu ID="Setup3DControl" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole">	
+        <SCMenu ID="shortcut_video_3d_mode_" Value="3D Mode" UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole">
+			<SCMenu ID="shortcut_video_3d_mode_off" Value="Off" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_video_3d_mode_auto" Value="Auto" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_video_3d_mode_2d3d" Value="2D-to-3D" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_video_3d_mode_lr" Value="Left-Right" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_video_3d_mode_ud" Value="Top-Bottom" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+        </SCMenu>
+        <SCMenu ID="shortcut_video_3d_lr_switch_" Value="L-R Switch" UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole">
+			<SCMenu ID="shortcut_video_3d_lr_switch_off" Value="Off" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_video_3d_lr_switch_on" Value="On" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+        </SCMenu>
+        <SCMenu ID="shortcut_video_3d_dof_" Value="Depth" UIType="SliderBar" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+        <SCMenu ID="shortcut_video_3d_3d2d_" Value="3D-to-2D" UIType="SelectBox" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole">
+			<SCMenu ID="shortcut_video_3d_3d2d_off" Value="Off" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_video_3d_3d2d_left" Value="Left" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+			<SCMenu ID="shortcut_video_3d_3d2d_right" Value="Right" UIType="Command" Scenes="AnalogTV|AV|YUV|HDMI|VGA|Local|Xunlei|Voole"/>
+        </SCMenu>
+       	<SCMenu ID="shortcut_video_3d_smart_engine_" Value="3D Engine" UIType="SelectBox" Scenes="FUTURE">
+			<SCMenu ID="shortcut_video_3d_smart_engine_on" Value="On" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_video_3d_smart_engine_off" Value="Off" UIType="Command" Scenes="FUTURE"/>
+        </SCMenu>
+	</SCMenu>
+<!--SCENES:AnalogTV-->
+	<SCMenu ID="ProgramControl" Scenes="AnalogTV">
+        <SCMenu ID="shortcut_program_no_" Value="Channel No." UIType="DynamicBox" Scenes="AnalogTV"/>
+        <SCMenu ID="shortcut_program_skip_" Value="Channel Skip" UIType="SelectBox" Scenes="AnalogTV">
+			<SCMenu ID="shortcut_program_skip_off" Value="Off" UIType="Command" Scenes="AnalogTV"/>
+        	<SCMenu ID="shortcut_program_skip_on" Value="On" UIType="Command" Scenes="AnalogTV"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_program_video_sys_" Value="Color System" UIType="SelectBox" Scenes="AnalogTV">
+			<SCMenu ID="shortcut_program_video_sys_auto" Value="Auto" UIType="Command" Scenes="AnalogTV"/>
+			<SCMenu ID="shortcut_program_video_sys_pal" Value="PAL" UIType="Command" Scenes="AnalogTV"/>
+			<SCMenu ID="shortcut_program_video_sys_ntsc" Value="NTSC" UIType="Command" Scenes="AnalogTV"/>
+        </SCMenu>
+		<SCMenu ID="shortcut_program_sound_sys_" Value="Sound System" UIType="SelectBox" Scenes="AnalogTV">
+			<SCMenu ID="shortcut_program_sound_sys_dk" Value="D/K" UIType="Command" Scenes="AnalogTV"/>
+			<SCMenu ID="shortcut_program_sound_sys_i" Value="I" UIType="Command" Scenes="AnalogTV"/>
+			<SCMenu ID="shortcut_program_sound_sys_bg" Value="B/G" UIType="Command" Scenes="AnalogTV"/>
+			<SCMenu ID="shortcut_program_sound_sys_m" Value="M" UIType="Command" Scenes="AnalogTV"/>
+			<SCMenu ID="shortcut_program_sound_sys_auto" Value="Auto" UIType="Command" Scenes="FUTURE"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_program_band_" Value="Band" UIType="SelectBox" Scenes="AnalogTV">
+			<SCMenu ID="shortcut_program_band_vhfl" Value="VHFL" UIType="Command" Scenes="AnalogTV"/>
+			<SCMenu ID="shortcut_program_band_vhfh" Value="VHFH" UIType="Command" Scenes="AnalogTV"/>
+			<SCMenu ID="shortcut_program_band_ufh" Value="UHF" UIType="Command" Scenes="AnalogTV"/>
+        </SCMenu>
+		<SCMenu ID="shortcut_program_manual_search_" Value="Manual Search" UIType="TunerOperateDialog" Scenes="AnalogTV"/>
+		<SCMenu ID="shortcut_program_fine_" Value="Fine Tune" UIType="TunerOperateDialog" Scenes="AnalogTV"/>
+		<SCMenu ID="shortcut_program_auto_search_" Value="Auto Search" UIType="TunerOperateDialog" Scenes="AnalogTV"/>
+		<SCMenu ID="shortcut_program_edit_" Value="Channel Edit" UIType="ProgramEditDialog" Scenes="AnalogTV"/>
+		<SCMenu ID="shortcut_program_vol_correct_" Value="Volume Comp." UIType="SliderBar" Scenes="AnalogTV"/>
+	</SCMenu>
+<!--SCENES:AllMenu-->
+<!--	<SCMenu ID="SourceSwitch" Scenes="AllMenu">-->
+<!--        <SCMenu ID="shortcut_common_source_" Value="Source" UIType="SelectBox" Scenes="AllMenu">-->
+<!--			<SCMenu ID="shortcut_common_source_tv" Value="TV" UIType="Command" Scenes="AllMenu"/>-->
+<!--			<SCMenu ID="shortcut_common_source_av1" Value="AV" UIType="Command" Scenes="AllMenu"/>-->
+<!--			<SCMenu ID="shortcut_common_source_yuv1" Value="YUV" UIType="Command" Scenes="AllMenu"/>-->
+<!--            <SCMenu ID="shortcut_common_source_hdmi1" Value="HDMI1" UIType="Command" Scenes="AllMenu"/>-->
+<!--			<SCMenu ID="shortcut_common_source_hdmi2" Value="HDMI2" UIType="Command" Scenes="AllMenu"/>-->
+<!--			<SCMenu ID="shortcut_common_source_hdmi3" Value="HDMI3" UIType="Command" Scenes="AllMenu"/>-->
+<!--			<SCMenu ID="shortcut_common_source_vga" Value="PC" UIType="Command" Scenes="AllMenu"/>-->
+<!--        </SCMenu>-->
+<!--    </SCMenu>-->
+<!--SCENES:Setup Net-->
+	<SCMenu ID="NetSetupMenu" Scenes="NetSetupMenu">	
+		<SCMenu ID="shortcut_setup_net_ethernet_" Value="LAN" UIType="Command" Scenes="NetSetupMenu"/>
+		<SCMenu ID="shortcut_setup_net_wifi_" Value="WIFI" UIType="Command" Scenes="NetSetupMenu"/>
+		<SCMenu ID="shortcut_setup_net_wps_" Value="WIFI WPS" UIType="Command" Scenes="NetSetupMenu"/>		
+	</SCMenu>
+<!--SCENES:Setup Picture-->
+	<SCMenu ID="PicSetupMenu" Scenes="PicSetupMenu">	
+        <SCMenu ID="shortcut_setup_video_brightness_" Value="Brightness" UIType="SliderBar" Scenes="PicSetupMenu"/>
+        <SCMenu ID="shortcut_setup_video_contrast_" Value="Contrast" UIType="SliderBar" Scenes="PicSetupMenu"/>
+        <SCMenu ID="shortcut_setup_video_color_" Value="Color" UIType="SliderBar" Scenes="PicSetupMenu"/>
+<!--		<SCMenu ID="shortcut_setup_video_hue_" Value="Hue" UIType="SliderBar" Scenes="PicSetupMenu"/>-->
+<!--        <SCMenu ID="shortcut_setup_video_sharpness_" Value="Sharpness" UIType="SliderBar" Scenes="PicSetupMenu"/>-->
+		<SCMenu ID="shortcut_setup_video_temperature_" Value="Color Temp." UIType="SelectBox" Scenes="PicSetupMenu">
+			<SCMenu ID="shortcut_setup_video_temperature_cold" Value="Cool" UIType="Command" Scenes="PicSetupMenu"/>
+			<SCMenu ID="shortcut_setup_video_temperature_std" Value="Standard" UIType="Command" Scenes="PicSetupMenu"/>
+			<SCMenu ID="shortcut_setup_video_temperature_warm" Value="Warm" UIType="Command" Scenes="PicSetupMenu"/>
+		</SCMenu>		
+        <SCMenu ID="shortcut_setup_video_dnr_" Value="DNR" UIType="SelectBox" Scenes="PicSetupMenu">
+			<SCMenu ID="shortcut_setup_video_dnr_off" Value="Off" UIType="Command" Scenes="PicSetupMenu"/>
+			<SCMenu ID="shortcut_setup_video_dnr_weak" Value="Low" UIType="Command" Scenes="PicSetupMenu"/>
+			<SCMenu ID="shortcut_setup_video_dnr_mid" Value="Middle" UIType="Command" Scenes="PicSetupMenu"/>
+			<SCMenu ID="shortcut_setup_video_dnr_strong" Value="High" UIType="Command" Scenes="PicSetupMenu"/>
+			<SCMenu ID="shortcut_setup_video_dnr_auto" Value="Auto" UIType="Command" Scenes="PicSetupMenu"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_video_picture_mode_" Value="Picture Mode" UIType="SelectBox" Scenes="PicSetupMenu">
+			<SCMenu ID="shortcut_setup_video_picture_mode_std" Value="Standard" UIType="Command" Scenes="PicSetupMenu"/>
+			<SCMenu ID="shortcut_setup_video_picture_mode_vivid" Value="Vivid" UIType="Command" Scenes="PicSetupMenu"/>
+			<SCMenu ID="shortcut_setup_video_picture_mode_soft" Value="Gentle" UIType="Command" Scenes="PicSetupMenu"/>
+			<SCMenu ID="shortcut_setup_video_picture_mode_user" Value="User" UIType="Command" Scenes="PicSetupMenu"/>
+		</SCMenu>
+<!--		<SCMenu ID="shortcut_setup_video_display_mode_" Value="Display Mode" UIType="SelectBox" Scenes="PicSetupMenu">-->
+<!--			<SCMenu ID="shortcut_setup_video_display_mode_169" Value="Full Screen" UIType="Command" Scenes="PicSetupMenu"/>-->
+<!--			<SCMenu ID="shortcut_setup_video_display_mode_personal" Value="Person" UIType="Command" Scenes="PicSetupMenu"/>-->
+<!--			<SCMenu ID="shortcut_setup_video_display_mode_theater" Value="Movie" UIType="Command" Scenes="PicSetupMenu"/>-->
+<!--			<SCMenu ID="shortcut_setup_video_display_mode_subtitle" Value="Caption" UIType="Command" Scenes="PicSetupMenu"/>-->
+<!--			<SCMenu ID="shortcut_setup_video_display_mode_43" Value="4:3" UIType="Command" Scenes="PicSetupMenu"/>-->
+<!--			<SCMenu ID="shortcut_setup_video_display_mode_panorama" Value="Panorama" UIType="Command" Scenes="PicSetupMenu"/>-->
+<!--		</SCMenu>-->
+	</SCMenu>
+<!--SCENES:Setup Sound-->
+	<SCMenu ID="SndSetupMenu" Scenes="SndSetupMenu">	
+		<SCMenu ID="shortcut_common_vol_" Value="Volume" UIType="SliderBar" Scenes="SndSetupMenu"/>
+<!--		<SCMenu ID="shortcut_setup_audio_equalizer_" Value="Equalizer" UIType="Command" Scenes="SndSetupMenu"/>-->
+		<SCMenu ID="shortcut_setup_audio_balance_" Value="Balance" UIType="SliderBar" Scenes="SndSetupMenu"/>
+        <SCMenu ID="shortcut_setup_audio_srs_" Value="SRS Surround" UIType="SelectBox" Scenes="SndSetupMenu">
+			<SCMenu ID="shortcut_setup_audio_srs_off" Value="Off" UIType="Command" Scenes="SndSetupMenu"/>
+				<SCMenu ID="shortcut_setup_audio_srs_on" Value="On" UIType="Command" Scenes="SndSetupMenu"/>		
+        </SCMenu>
+		<SCMenu ID="shortcut_setup_audio_voice_" Value="SoundClarity" UIType="SelectBox" Scenes="SndSetupMenu">
+			<SCMenu ID="shortcut_setup_audio_voice_off" Value="Off" UIType="Command" Scenes="SndSetupMenu"/>
+			<SCMenu ID="shortcut_setup_audio_voice_on" Value="On" UIType="Command" Scenes="SndSetupMenu"/>			
+        </SCMenu>
+		<SCMenu ID="shortcut_setup_audio_increase_bass_" Value="Trubass" UIType="SelectBox" Scenes="SndSetupMenu">
+			<SCMenu ID="shortcut_setup_audio_increase_bass_off" Value="Off" UIType="Command" Scenes="SndSetupMenu"/>
+			<SCMenu ID="shortcut_setup_audio_increase_bass_on" Value="On" UIType="Command" Scenes="SndSetupMenu"/>	
+        </SCMenu>
+        <SCMenu ID="shortcut_setup_audio_sound_mode_" Value="Sound Mode" UIType="SelectBox" Scenes="SndSetupMenu">
+			<SCMenu ID="shortcut_setup_audio_sound_mode_std" Value="Standard" UIType="Command" Scenes="SndSetupMenu"/>
+            <SCMenu ID="shortcut_setup_audio_sound_mode_music" Value="Music" UIType="Command" Scenes="SndSetupMenu"/>
+			<SCMenu ID="shortcut_setup_audio_sound_mode_news" Value="News" UIType="Command" Scenes="SndSetupMenu"/>
+			<SCMenu ID="shortcut_setup_audio_sound_mode_theater" Value="Movie" UIType="Command" Scenes="SndSetupMenu"/>
+			<SCMenu ID="shortcut_setup_audio_sound_mode_user" Value="User" UIType="Command" Scenes="SndSetupMenu"/>
+		</SCMenu>
+        <SCMenu ID="shortcut_setup_audio_bass_" Value="Bass" UIType="SliderBar" Scenes="SndSetupMenu"/>
+        <SCMenu ID="shortcut_setup_audio_treble_" Value="Treble" UIType="SliderBar" Scenes="SndSetupMenu"/>
+	</SCMenu>
+<!--SCENES:Setup System-->
+	<SCMenu ID="SysSetupMenu" Scenes="SysSetupMenu">	
+		<SCMenu ID="shortcut_setup_sys_language_" Value="Language/语言" UIType="SelectBox" Scenes="SysSetupMenu">
+			<SCMenu ID="shortcut_setup_sys_language_en" Value="English" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_language_zh" Value="中文" UIType="Command" Scenes="SysSetupMenu"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_poweron_source_" Value="Boot Source" UIType="SelectBox" Scenes="SysSetupMenu">
+			<SCMenu ID="shortcut_setup_sys_poweron_source_memory" Value="Remember" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_poweron_source_coocaa" Value="Home" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_poweron_source_tv" Value="TV" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_poweron_source_av1" Value="AV" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_poweron_source_yuv1" Value="YUV" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_poweron_source_hdmi1" Value="HDMI1" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_poweron_source_hdmi2" Value="HDMI2" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_poweron_source_hdmi3" Value="HDMI3" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_poweron_source_vga" Value="PC" UIType="Command" Scenes="SysSetupMenu"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_sleep_time_" Value="Sleep Timer" UIType="SelectBox" Scenes="SysSetupMenu">
+			<SCMenu ID="shortcut_setup_sys_sleep_time_off" Value="Off" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_sleep_time_5" Value="5 Mins" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_sleep_time_15" Value="15 Mins" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_sleep_time_30" Value="30 Mins" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_sleep_time_60" Value="60 Mins" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_sleep_time_90" Value="90 Mins" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_sleep_time_120" Value="120 Mins" UIType="Command" Scenes="SysSetupMenu"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_woofer_switch_" Value="Subwoofer" UIType="SelectBox" Scenes="SysSetupMenu">
+			<SCMenu ID="shortcut_setup_sys_woofer_switch_off" Value="Off" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_woofer_switch_on" Value="On" UIType="Command" Scenes="SysSetupMenu"/>		
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_woofer_vol_" Value="S.W.VOL" UIType="SliderBar" Scenes="SysSetupMenu"/>
+		<SCMenu ID="shortcut_setup_sys_wall_effects_" Value="Wall-M.S.E." UIType="SelectBox" Scenes="SysSetupMenu">
+			<SCMenu ID="shortcut_setup_sys_wall_effects_off" Value="Off" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_wall_effects_on" Value="On" UIType="Command" Scenes="SysSetupMenu"/>			
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_poweron_music_" Value="On Music" UIType="SelectBox" Scenes="SysSetupMenu">
+			<SCMenu ID="shortcut_setup_sys_poweron_music_off" Value="Off" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_poweron_music_on" Value="On" UIType="Command" Scenes="SysSetupMenu"/>	
+		</SCMenu>
+<!--		<SCMenu ID="shortcut_setup_sys_keysound_" Value="Key Sound" UIType="SelectBox" Scenes="SysSetupMenu">
+			<SCMenu ID="shortcut_setup_sys_keysound_off" Value="Off" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_keysound_on" Value="On" UIType="Command" Scenes="SysSetupMenu"/>
+		</SCMenu>-->
+		<SCMenu ID="shortcut_setup_sys_six_color_" Value="Magic Picture III" UIType="SelectBox" Scenes="SysSetupMenu">
+			<SCMenu ID="shortcut_setup_sys_six_color_off" Value="Off" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_six_color_opti" Value="Optimize" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_six_color_enhance" Value="Enhance" UIType="Command" Scenes="SysSetupMenu"/>
+<!--			<SCMenu ID="shortcut_setup_sys_six_color_colordemo" Value="Color Demo" UIType="Command" Scenes="SysSetupMenu"/>-->
+<!--			<SCMenu ID="shortcut_setup_sys_six_color_splitdemo" Value="Split Demo" UIType="Command" Scenes="SysSetupMenu"/>-->
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_matrix_" Value="Matix B/L" UIType="SelectBox" Scenes="FUTURE">
+			<SCMenu ID="shortcut_setup_sys_matrix_off" Value="Off" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_setup_sys_matrix_on" Value="On" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_setup_sys_matrix_demo" Value="Demo" UIType="Command" Scenes="FUTURE"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_back_light_" Value="Back Light Adjust" UIType="SliderBar" Scenes="SysSetupMenu"/>
+		<SCMenu ID="shortcut_setup_sys_dream_panel_" Value="Dream Panel" UIType="SelectBox" Scenes="SysSetupMenu">
+			<SCMenu ID="shortcut_setup_sys_dream_panel_off" Value="Off" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_dream_panel_sensor" Value="Environment" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_dream_panel_scene" Value="Image" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_dream_panel_all" Value="Multiple" UIType="Command" Scenes="SysSetupMenu"/>
+<!--			<SCMenu ID="shortcut_setup_sys_dream_panel_demo" Value="Demo" UIType="Command" Scenes="SysSetupMenu"/>-->
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_memc_" Value="MEMC" UIType="SelectBox" Scenes="FUTURE">
+			<SCMenu ID="shortcut_setup_sys_memc_off" Value="Off" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_setup_sys_memc_weak" Value="Low" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_setup_sys_memc_mid" Value="Middle" UIType="Command" Scenes="FUTURE"/>
+			<SCMenu ID="shortcut_setup_sys_memc_strong" Value="High" UIType="Command" Scenes="FUTURE"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_upgrade_local_" Value="LocalUpdate" UIType="Command" Scenes="SysSetupMenu"/>
+		<SCMenu ID="shortcut_setup_sys_upgrade_online_" Value="OnlineUpdate" UIType="Command" Scenes="SysSetupMenu"/>	
+		<SCMenu ID="shortcut_setup_sys_filelist_mode_" Value="Browse Mode" UIType="SelectBox" Scenes="SysSetupMenu">
+			<SCMenu ID="shortcut_setup_sys_filelist_mode_file" Value="File View" UIType="Command" Scenes="SysSetupMenu"/>
+			<SCMenu ID="shortcut_setup_sys_filelist_mode_folder" Value="Folder View" UIType="Command" Scenes="SysSetupMenu"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_setup_sys_recovery_" Value="ResetDefault" UIType="Dialog" Scenes="SysSetupMenu"/>	
+	</SCMenu>
+<!--SCENES:VideoChat-->
+	<SCMenu ID="VideoChatWindow" Scenes="VideoChatWindow">	
+		<SCMenu ID="shortcut_common_vol_" Value="Volume" UIType="SliderBar" Scenes="VideoChatWindow"/>	
+		<SCMenu ID="shortcut_videochat_hangup_" Value="Hungup" UIType="Command" Scenes="VideoChatWindow"/>
+		<SCMenu ID="shortcut_videochat_local_video_" Value="Local Video" UIType="SelectBox" Scenes="VideoChatWindow">
+			<SCMenu ID="shortcut_videochat_local_video_on" Value="On" UIType="Command" Scenes="VideoChatWindow"/>
+			<SCMenu ID="shortcut_videochat_local_video_off" Value="Off" UIType="Command" Scenes="VideoChatWindow"/>
+		</SCMenu>
+		<SCMenu ID="shortcut_videochat_remote_video_" Value="Remote Video" UIType="SelectBox" Scenes="VideoChatWindow">
+			<SCMenu ID="shortcut_videochat_remote_video_on" Value="On" UIType="Command" Scenes="VideoChatWindow"/>
+			<SCMenu ID="shortcut_videochat_remote_video_off" Value="Off" UIType="Command" Scenes="VideoChatWindow"/>
+		</SCMenu>
+<!--		<SCMenu ID="shortcut_videochat_local_photo_" Value="Snap" UIType="Command" Scenes="VideoChat"/>-->
+<!--		<SCMenu ID="shortcut_videochat_remote_photo_" Value="Friend Pic." UIType="Command" Scenes="VideoChat"/>-->
+		<SCMenu ID="shortcut_videochat_fullscr_" Value="Full Screen" UIType="SelectBox" Scenes="VideoChatWindow">
+			<SCMenu ID="shortcut_videochat_fullscr_on" Value="On" UIType="Command" Scenes="VideoChatWindow"/>
+			<SCMenu ID="shortcut_videochat_fullscr_off" Value="Off" UIType="Command" Scenes="VideoChatWindow"/>
+		</SCMenu>		
+	</SCMenu>
+	<SCMenu ID="VideoChatList" Scenes="VideoChatList">	
+<!--		<SCMenu ID="shortcut_videochat_busy_" Value="Do Not Disturb" UIType="Command" Scenes="VideoChatList"/>-->
+		<SCMenu ID="shortcut_videochat_editname_" Value="Edit NickName" UIType="Command" Scenes="VideoChatList"/>
+		<SCMenu ID="shortcut_videochat_delefri_" Value="Del ID" UIType="Command" Scenes="VideoChatList"/>
+		<SCMenu ID="shortcut_videochat_return_" Value="Return" UIType="Command" Scenes="VideoChatList"/>
+	</SCMenu>
+<!--SCENES:APKManage-->
+	<SCMenu ID="APKManageControl" Scenes="APKManage">
+		<SCMenu ID="shortcut_app_run_" Value="Run APP" UIType="Command" Scenes="APKManage"/>
+		<SCMenu ID="shortcut_app_uninstall_" Value="Del APP" UIType="Command" Scenes="APKManage"/>
+		<SCMenu ID="shortcut_app_update_" Value="Update APP" UIType="Command" Scenes="APKManage"/>
+	</SCMenu>
+</SCMenuTree>

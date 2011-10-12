@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TestMenu!</string>
+    <string name="app_name">TestMenu</string>
+    
+    <string name="busoff">BUS_OFF</string>
+    <string name="WhiteBalance">白平衡调整</string>
+    <string name="M_mode">老化模式</string>
+    <string name="EMC_CONTROL">EMC_CONTROL(扩频)</string>
+    <string name="SingleKeySwitch">单键模式开关</string>
+    <string name="advanced">高级设置（需密码）</string>
+    <string name="infomations">电子码</string>
+ 
+     
+    <string name="On">开</string>
+    <string name="Off">关</string>
+    <string name="Arrow">←进入→</string>
+  	<string name="start">←开始→</string> 
+  	<string name="pageup">高级设置上一页</string>
+ 	<string name="pagedown">高级设置下一页</string>  
+
+
+    <string name="CPU_VER">CPU：</string>
+    <string name="EEP_VER">EEPROM：</string>
+    <string name="SOFT_VER">软件版本：</string>
+    <string name="UBOOT_VER">UBOOT版本：</string>
+    <string name="factory_setup">设置</string>
+ 	<string name="engineer">工程菜单</string>
+
+
+ 	<string name="AutoADC">ADC自动校正</string>
+ 	<string name="RGAIN">红色增益（RGAIN）</string>
+ 	<string name="GGAIN">绿色增益（GGAIN）</string>
+ 	<string name="BGAIN">蓝色增益（BGAIN）</string>
+ 	<string name="ROFF">红色补偿（ROFF）</string>
+ 	<string name="GOFF">绿色补偿（GOFF）</string>
+ 	<string name="BOFF">蓝色补偿（BOFF）</string>
+ 	<string name="changechannel">请切换通道</string>
+ 	
+    <string name="EEPROM_RW">EEPROM读写</string>	
+ 	<string name="OPT1">HDCP读取位置</string>
+ 	<string name="OPT2">USBBOOT</string>
+ 	<string name="OPT3">LVDS输出</string>
+ 	<string name="OPT4">开机画面</string>
+ 	<string name="OPT5">在线音乐</string>
+ 	<string name="OPT6">待机模式</string>
+ 	<string name="serialportSwitch">串口通讯开关</string>
+ 	<string name="facotry_reset">恢复出厂设置</string>
+ 	<string name="hdcpdefault">DemoKey</string>
+ 	<string name="hdcpeep">EEPROMKey</string>
+ 	<string name="LVDS_VESA">VESA</string>
+ 	<string name="LVDS_JEIDA">JEIDA</string>
+ 	
+<string name="standby_completely">全部重启</string>
+ 	<string name="standby_simple">快速启动</string>
+ 	
+ 	<string name="EEP_page">页码</string>
+ 	<string name="EEP_pos">偏移量</string>
+ 	<string name="EEP_data">数据</string>
+ 	<string name="EEP_save">保存（谨慎操作）</string>
+ 	<string name="EEP_init">初始化（谨慎操作）</string>
+ 	
+ 	<string name="enter_password">请输入0-9或用确认键调节密码锁，输入正确将弹出进入按钮</string>
+ 	<string name="backspace">←</string>
+ 	<string name="ensure">进入</string>
+ 	<string name="back">返回</string>
+ 	<string name="zero">0</string>
+ 	<string name="passwordLock">密码锁：</string>
+ 	
+ 	<string name="SPREAD_SP_EN">SPREAD_SP_EN(扩频开关)</string>
+ 	<string name="SP_AMPLITUDE">SP_AMPLITUDE(扩频幅度低位)</string>
+ 	<string name="SP_PERIOD">SP_PERIOD(扩频周期)</string>
+ 	<string name="SP_AMPLITUDE_MSB">SP_AMPLITUDE_MSB(扩频幅度高位)</string>
+ 	<string name="LVDS_ICTRL">LVDS_ICTRL(扩频电流)</string> 	
+ 	
+ 	<string name="BAR_CODE">BARCODE：</string> 
+ 	<string name="paneltext">Panel：</string>
+ 	<string name="panel">LGD IPS</string>
+ 	<string name="Resolutiontext">Resolution:</string>
+ 	<string name="Resolution">1920*1080</string>
+ 	<string name="Refreshtext">Refresh rate:</string>
+ 	<string name="Refreshrate">60HZ</string>
+ 	<string name="ColorDepthText">Color Depth:</string> 
+ 	<string name="ColorDepth">8bit</string> 
+ 	<string name="ProcessorText">Processor:</string> 
+ 	<string name="Processor">VII Engine</string> 	
+ 	<string name="MAC">MAC地址：</string>
+ 	
+ 	<string name="ADCPreparing">请拔掉所有通道的信号输入，按ADC校正键或确认键开始校正，按返回键或菜单键退出</string> 
+ 	<string name="ADCProgressing">ADC校正进行中，请稍候……</string> 
+ 	<string name="ADCSuccess">校正成功！</string>
+ 	<string name="ADCFailure">校正失败，按ADC校正键或确认键重新开始校正，按返回键或菜单键退出。</string>
+ 	<string name="initialProgressing">初始化进行中，请稍候……</string>
+ 	
+ 	<string name="confirmAgain">再次按键开始</string>
+ 	
+ 	<string name="adbSwitch">adb开关</string>
+ 	<string name="MACAddr">MAC地址</string>
+ 	<string name="MACGet">确定键设为UBOOT值</string>
+ 	<string name="MACSet">右键写入</string>
+ 	<string name="MACDefault">确定键设为默认值</string>
+ 	
+ 	<string name="PanelType">配屏选择</string>
+ 	<string name="panel42e83">7607-T42001-A010</string>
+ 	<string name="panel47e83">7607-T47006-A010</string>
+ 	<string name="panel55e83">7607-T55001-D010</string>
+ 	<string name="panel42e85">7607-T42001-D000</string>
+ 	<string name="panel47e85">7607-T47006-D000</string>
+ 	<string name="TypeError">ERROR</string>
+ 	
+ 	<string name="HDMIEQMode">HDMI均衡参数(按确认键应用数值)</string>
+ 	<string name="HDMIInternalMode">HDMI内部参数(左右键准备输入)</string>
+ 	<string name="tobeinput">输入数值后按确认</string>
+ 	
+	<string name="OUTSET_OK">OUTSET OK</string> 
+	<string name="insert_udisk">请插入存有测试歌曲的酷K优盘！</string> 	
+ 	
+ 	<string name="nosignal_en">No signal</string>
+ 	<string name="nosignal_ch">无信号</string>
+ 	
+ 	<string name="notsupport_en">Not Support</string>
+ 	<string name="notsupport_ch">不支持</string>
+ 	
+ 	<string name="nosignalsleep_en">Press any key to exit auto power off!</string>
+ 	<string name="nosignalsleep_ch">无信号自动关机倒计时，按任意键退出!</string>
+<!-- 	<string name="sleepexit_en">press any key to cancel auto power off!</string>
+ 	<string name="sleepexit_ch">按任意键取消自动关机！</string>-->
+</resources>

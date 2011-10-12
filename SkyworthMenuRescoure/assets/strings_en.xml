@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BUTTON_YES" value="Yes"/>
+	<string name="BUTTON_NO" value="No"/>
+	<string name="SET_DEFAULT_INFO" value="Restore the factory settings？"/>
+	<string name="BUTTON_OK" value="OK"/>
+	<string name="BUTTON_CANCEL" value="Cancel"/>
+	<string name="RECOVERING" value="Restoring ......"/>
+    <string name="SM_STD" value="Standard"/>
+	<string name="SM_MUSIC" value="Music"/>
+	<string name="SM_NEWS" value="News"/>
+	<string name="SM_THEATER" value="Movie"/>
+	<string name="SM_USER" value="User"/>
+	<string name="MUSIC" value="Music"/>
+	<string name="PICTURE" value="Picture"/>
+	<string name="TEXT" value="TXT"/>
+	<string name="PREMUSIC" value="PREV"/>
+	<string name="NEXTMUSIC" value="NEXT"/>
+	<string name="PREPICTRUE" value="PREV"/>
+	<string name="NEXTPICTURE" value="NEXT"/> 
+	<string name="PRETEXT" value="PREV"/>
+	<string name="NEXTTEXT" value="NEXT"/>
+	
+	<string name="title" value="Press “MENU” to enter menu,\nPress “RETURN” to exit."/>
+   	<string name="title_channel" value="Channel NO.: "/>
+    <string name="title_frequency" value="Frequency："/>
+    <string name="title_band" value="Band："/>
+    <string name="title_manualsearch" value="Manual Search"/>
+    <string name="title_finetune" value="Fine Tune"/>
+    <string name="title_autosearch" value="Auto Search"/>
+    <string name="vhfl_band" value="VHFL"/>
+    <string name="vhfh_band" value="VHFH"/>
+    <string name="uhf_band" value="UHF"/>
+    <string name="colorsys_auto" value="Auto"/>
+    <string name="colorsys_pal" value="PAL"/>
+    <string name="colorsys_ntsc" value="NTSC"/>
+    <string name="soundsys_auto" value="Auto"/>
+    <string name="soundsys_dk" value="D/K"/>
+    <string name="soundsys_i" value="I"/>
+    <string name="soundsys_bg" value="B/G"/>
+    <string name="soundsys_m" value="M"/>
+    <string name="manualsearch_tips" value="Press “LEFT/RIGHT” to start search,\nPress “RETURN” to exit."/>
+<!--    <string name="leftmanualsearch_tips" value="Press “RIGHT” to change the search direction,\nPress “RETURN” to exit."/>
+    <string name="rightmanualsearch_tips" value="Press “Left” to change the search direction,\nPress “RETURN” to exit."/>
+    <string name="manualsearchfinish_tips" value="Stored. Press “LEFT/RIGHT” to start search,\nPress “RETURN” to exit."/>-->
+    <string name="finetune_tips" value="Press “LEFT/RIGHT” to fine tune,\nPress “RETURN” to exit."/>
+    <string name="autosearch_tips" value="Press “OK” to start auto search,\nPress “RETURN” to exit."/>
+    <string name="inautosearch_tips" value="Press “RETURN” to exit."/>
+    <string name="title_sourceitem" value="Channel NO."/>
+    <string name="title_targetitem" value="Exchange No."/>
+    <string name="title_exchangeitem" value="Channel Exchange      Confirm"/>
+	<string name="toogle_display_one" value="_"/>
+	<string name="toogle_display_two" value="_ _"/>
+	<string name="toogle_display_three" value="_ _ _"/>
+	<string name="tv_source_name" value="TV"/>
+	<string name="av1_source_name" value="AV"/>
+	<string name="ypbpr1_source_name" value="YUV"/>
+	<string name="hdmi1_source_name" value="HDMI1"/>
+	<string name="hdmi2_source_name" value="HDMI2"/>
+	<string name="hdmi3_source_name" value="HDMI3"/>
+	<string name="vga_source_name" value="PC"/>
+	<string name="title_volume" value="Volume"/>
+	<string name="title_mute" value="Mute"/>
+	<string name="allcolors" value="←All On→"/>
+ 	<string name="yellowclose" value="←Yellow Off→"/>
+ 	<string name="cyanclose" value="←Cyan Off→"/>
+ 	<string name="greenclose" value="←Green Off→"/>
+ 	<string name="magendaclose" value="←Magenda Off→"/>
+ 	<string name="redclose" value="←Red Off→"/>
+ 	<string name="blueclose" value="←Blue Off→"/>
+ 	<string name="rgbclose" value="←RGB Off→"/>
+ 	<string name="ymcclose" value="←YMC Off→"/>
+ 	<string name="allclose" value="←All Off→"/>
+ 	<string name="splitdemo" value="Off←Split Demo→On"/>
+ 	<string name="navigate_title" value="“SEARCH NAVIGATE” \nHELP TO FINISH SEARCH ACTION"/>
+ 	<string name="navigate_firstline" value="Please confirm the antenna is connected,"/>
+ 	<string name="navigate_secondline" value="Press “OK” to start auto search;"/>
+ 	<string name="navigate_thirdline" value="Press “RETURN” to exit."/>
+ 	<string name="vga_title" value="PC"/>
+ 	<string name="vga_autoadjust" value="Auto Adjust"/>
+ 	<string name="vga_horizental" value="Hor. Position"/>
+ 	<string name="vga_vertical" value="Ver. Position"/>
+ 	<string name="vga_frequency" value="Frequency"/>
+ 	<string name="vga_phase" value="Phase"/>
+ 	<string name="vga_inadjust" value="adjusting..."/>
+ 	<string name="sensorDetect" value="Environment"/>
+ 	<string name="imageDetect" value="Image Content"/>
+ 	<string name="pwmOut" value="BackLight"/>
+ 	<string name="dark" value="L"/>
+ 	<string name="bright" value="H"/> 	
+ 	<string name="title_audioonly" value="Audio only is counting down:"/>
+<!-- 	<string name="index_audioonly" value=""/>-->
+ 	<string name="wear3dglass_tip" value="Please wear 3D glasses!"/>
+</resources>
